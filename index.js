@@ -66,7 +66,7 @@ const harsh = {
   "created_at": "2023-06-26T08:10:35Z",
   "updated_at": "2025-03-29T04:33:50Z"
 }
-app.get('harshapi',(req,res)=>{
+app.get('/harshapi',(req,res)=>{
   res.json({harsh})
 })
 
