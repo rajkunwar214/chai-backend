@@ -24,6 +24,10 @@ app.get('/raj', function (req, res) {
   res.send('OK')
   console.dir(res.headersSent) // true
 })
+app.get('/swati',(req,res)=>
+{
+  res.send("this is the swati page");
+})
 app.get("/random",(req,res)=>{
   res.send("thiss is random page")
 })
